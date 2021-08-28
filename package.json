@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/bot.js",
     "dev": "nodemon ./src/bot.js",
-    "build": "ng build",
+    "build": "webpack",
     "heroku-postbuild": "ng build --prod"
   },
   "repository": {
