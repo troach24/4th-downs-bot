@@ -1,5 +1,10 @@
 {
   "name": "4th-downs-bot",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
   "description": "",
   "version": "1.0.0",
   "engines": {
@@ -9,26 +14,16 @@
   "dependencies": {
     "@discordjs/builders": "^0.5.0",
     "@discordjs/rest": "*",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
     "discord-api-types": "^0.22.0",
     "discord.js": "^13.2.0-dev.1630152176.b89280a",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.12"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/bot.js",
-    "dev": "nodemon ./src/bot.js",
-    "build": "webpack",
-    "heroku-postbuild": "ng build --prod"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/troach24/4th-downs-bot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/troach24/4th-downs-bot/issues"
-  },
-  "homepage": "https://github.com/troach24/4th-downs-bot#readme"
+  "_id": "4th-downs-bot@0.0.0"
 }
